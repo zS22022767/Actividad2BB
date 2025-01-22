@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #19687c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Estilos de las publicaciones del blog */
+.blog-posts {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.blog-post p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Estilos de la barra lateral */
+.sidebar {
+    width: 25%;
+    margin-left: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    color: #333;
+}
+
+/* Estilos del pie de página */
+.footer {
+    text-align: center;
+    background-color: #8de7e3;
+    color: white;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
